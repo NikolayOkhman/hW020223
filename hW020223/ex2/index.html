@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>ex2</title>
+   </head>
+   <script type="module" src="script.js" defer></script>
+   <style>
+      body {
+         direction: rtl;
+         /* background-color: lightgray; */
+      }
+      input {
+         background-color: lightgray;
+         height: 20px;
+         width: 200px;
+      }
+      button {
+         background-color: lightgreen;
+         height: 30px;
+         width: 150px;
+      }
+   </style>
+   <body>
+      <label type="text">שם פרטי</label><br />
+      <input type="text" id="nameInp" placeholder="שם פרטי" /><br />
+      <label type="text"> שם משפחה</label><br />
+      <input type="text" id="lastNameInp" placeholder="שם משפחה" /><br />
+      <label type="text"> שכר חודשי </label><br />
+      <input type="text" id="saharInp" placeholder="שכר חודשי" /><br />
+      <label type="text"> אחוזים מהשכר לפנסיה </label><br />
+      <input
+         type="text"
+         id="pensiaInp"
+         placeholder="אחוזים מהשכר לפנסיה"
+      /><br />
+      <label type="text"> אחוזים מהשכר לקרן השתלמות </label><br />
+      <input
+         type="text"
+         id="kerenInp"
+         placeholder="אחוזים מהשכר לקרן השתלמות"
+      /><br />
+      <button id="newBtn">חשב שכר</button><br /><br />
+      <div id="newDiv"></div>
+   </body>
+</html>
